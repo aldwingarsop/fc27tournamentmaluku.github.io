@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+header {
+    background-color: #1a252f;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    border-top: 4px solid #3498db;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.badge-online { background-color: #2ecc71; }
+.badge-offline { background-color: #e67e22; }
+
+.btn-daftar {
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-daftar:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1a252f;
+    color: white;
+    margin-top: 4rem;
+}
